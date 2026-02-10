@@ -30,7 +30,7 @@ repairForm.addEventListener('submit', (e) => {
     const name = document.getElementById('name').value;
     const phone = document.getElementById('phone').value;
 
-    alert(`Спасибо, ${name}! Ваша заявка принята. Мы свяжемся с вами по номеру ${phone} в течение 15 минут.`);
+    alert(`Спасибо, ${name}! Ваша заявка принята. Мы свяжемся с вами по номеру ${phone} в течение 30 минут.`);
 
     repairForm.reset();
 });
