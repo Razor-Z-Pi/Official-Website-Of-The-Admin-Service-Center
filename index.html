@@ -10,6 +10,25 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+    <div class="cookie-consent" id="cookieConsent">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <div class="cookie-icon">
+                    <i class="fas fa-cookie-bite"></i>
+                </div>
+                <p>
+                    Мы используем файлы cookie для улучшения работы сайта, анализа трафика и персонализации контента.
+                    Продолжая использовать наш сайт, вы соглашаетесь с
+                    <a href="#" id="privacyPolicyLink">политикой конфиденциальности</a>.
+                </p>
+            </div>
+            <div class="cookie-buttons">
+                <button class="cookie-btn cookie-btn-decline" id="declineCookies">Отклонить</button>
+                <button class="cookie-btn cookie-btn-accept" id="acceptCookies">Принять</button>
+            </div>
+        </div>
+    </div>
+
     <header id="header">
         <div class="container">
             <nav>
@@ -354,9 +373,9 @@
             
             <div class="copyright">
                 <p>
-                    Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный и ознакомительный характер и ни при каких условиях информационные материалы и цены, размещенные на сайте, не являются публичной офертой.<br> 
-                    ИП БОЛГОВ ЕВГЕНИЙ АЛЕКСАНДРОВИЧ<br>
-                    ИНН: 190302594375
+                    Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный и ознакомительный характер и ни при каких условиях информационные материалы и цены, размещенные на сайте, не являются публичной офертой, определяемой положениями ст. 437 ГК РФ.<br> 
+                    ИНН: 190302594375, ОГРН: 321190000016232,<br> 
+                    Индивидуальный предприниматель Болгов Евгений Александрович
                 </p>
                 <p>&copy; 2026 Сервис-центр «Админ». Все права защищены.</p>
             </div>
@@ -364,5 +383,6 @@
     </footer>
 
     <script src="./js/script.js"></script>
+    <script src="./js/cookie.js"></script>
 </body>
 </html>
